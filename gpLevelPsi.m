@@ -13,25 +13,6 @@ end;
 clear i;
 
 %% fix length of vectors if missing/extra trials
-
-% for i = 1:nSubjects
-%     dX(i,1) = length(output(i).all.PM_haptic.x);
-%     dX(i,2) = length(output(i).all.PM_both.x);
-%     dX(i,3) = length(output(i).all.PM_audio.x);
-% end
-% 
-% dX = 1:max(dX(:));
-% 
-% 
-% for i = 1:nSubjects
-%     dR(i,1) = length(output(i).all.PM_haptic.response);
-%     dR(i,2) = length(output(i).all.PM_both.response);
-%     dR(i,3) = length(output(i).all.PM_audio.response);
-% end
-% 
-% dR = 1:max(dR(:));
-
-%% fix length of vectors if missing/extra trials
 nTrials = 100; % Target number of trials
 
 for i = 1:nSubjects
